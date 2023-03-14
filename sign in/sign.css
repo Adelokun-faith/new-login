@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+input{
+    font-family: 'Poppins', sans-serif;
+}
+
+body  {
+    background-image: url("picture.jpg");
+  }
+
+.scontainer{
+    color: black;
+    background-color: silver;
+    border-radius: 30px;
+    position: absolute;
+    left: 250px;
+    width: 60%;
+    height: 980px;
+    top: 50px;
+    bottom: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.pics{
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin-left: 300px;
+    background-color: white;
+    border-color: gray;
+}
+
+a{
+    color: blue ;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5rem;
+    grid-column: 1 /2;
+    grid-row: 1 / 2;
+}
+
+.input-field{
+    max-width: 380px;
+    width: 100%;
+    height: 55px;
+    background-color: white;
+    margin: 10px 0;
+    border-radius: 55px;
+    box-shadow: 2px solid black;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0;
+    position: relative;
+}
+
+.input-field i {
+    text-align: center;
+    line-height: 55px;
+    color: #acacac;
+    font-size: 1.5rem;
+}
+
+.input-field input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.input-field input:placeholder-shown {
+    color: #aaa;
+    font-weight: 500;
+}
+
+button{
+    background-color: lightgreen;
+    box-shadow: 2px lightgreen;
+    width: 150px;
+    height: 49px;
+    outline: none;
+    border: none;
+    border-radius: 48px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    transition: all 0.5s;
+}
+
+.pics #fileField{
+    position: absolute;
+    top: 230px;
+}
